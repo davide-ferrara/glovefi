@@ -4,6 +4,8 @@
 
 The program monitors the system event bus (via `libsystemd`) to automatically detect when units are connected, handling mounting, safe `.uf2` firmware copying, and clean unmounting, while ensuring the correct update order is respected (Right side first, then Left side).
 
+![alt text](preview.png "glovefi")
+
 ## Features
 
 * **Automatic Detection:** Monitors USB hotplug events for devices in bootloader mode without manual configuration.
