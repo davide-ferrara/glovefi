@@ -1,4 +1,3 @@
-````markdown
 # glovefi
 
 **glovefi** is a lightweight command-line utility written in C designed to automate and simplify the firmware update process for the **Glove80** split keyboard on Linux systems.
@@ -93,5 +92,3 @@ make clean
 
 **Disclaimer:** This software is an independent tool and is not affiliated with MoErgo. Use at your own risk. Always ensure you have a backup of your configuration.
 
-```
-```
