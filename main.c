@@ -58,7 +58,7 @@ static int mountDevice(const char *devnode) {
     return -1;
   }
 
-  printf("Glove80 FileSystem successfully mounted!");
+  printf("Glove80 FileSystem successfully mounted!\n");
   return 0;
 }
 
@@ -227,7 +227,7 @@ int main(int argc, char **argv) {
   r = sd_device_monitor_start(m, gloveMonitor, (void *)firmware);
 
   catAsciiArt();
-  printf(">>> To start please enter bootloader mode on the left side of "
+  printf(">>> To start please enter bootloader mode on the right side of "
          "the Glove80...\n");
   sd_event_loop(e);
   sd_device_monitor_unref(m);
